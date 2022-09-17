@@ -1,0 +1,162 @@
+body {
+    background-color: rgb(71, 195, 232);
+}
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family:"noto sans", sans-serif;
+    color:black 
+}
+/*comienzan las clases */
+.btn-verde {
+    text-decoration: none;
+    color:aliceblue;
+    font-size: 0.8rem;
+    font-family: "montaserrat", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: rgb(71, 195, 232);
+    padding: 1rem 2rem;
+    display: inline-block;
+    align-self: center;
+}
+.frase {
+    text-align: center;
+}
+
+/*terminan los reutizables */
+
+/* comienza 1ra seccion */
+
+#primera-seccion{
+    background: linear-gradient( rgba(68,13,13,0.35),rgba(38,2,2,0.446)),url(sepulveda.jpg) no-repeat center/cover;
+    background-attachment: fixed;
+    height: 75vh;
+    color: aliceblue;
+}
+#barra-navegacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto 6rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+#logo{
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 350;
+    font-stretch: wider;
+}
+nav>a{
+    text-decoration: nome;
+    color: rgb(233, 236, 240);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+nav>a:hover{
+    color:rgb(71, 195, 232);
+}
+#primera-seccion-contenido{
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#primera-seccion-contenido>p {
+    text-transform: capitalize;
+    font-family: "montaserrat",sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+#primera-seccion-contenido> hr {
+    width: 10rem;
+    border-color: rgb(71, 195, 232);
+}
+#primera-seccion-contenido > h1 {
+    font-family: "montaserrat",sans-serif;
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 2.5rem;
+}
+#segunda-seccion{
+    background-color:rgb(255, 255, 255);
+    min-height: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.5rem;
+}
+#tercera-seccion{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+#titulo{
+    margin-bottom: 3rem;
+}
+#titulo >h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "montaserrat", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+#titulo > hr {
+    width: 5rem;
+    border-color: rgb(71, 195, 232);
+}
+#container-tercera-seccion{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+.img-tercera{
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+.img-tercera > h6 {
+    text-align: center;
+    font-family: "montaserrat", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.img-tercera>p {
+    margin-bottom: 10rem;
+}
+.img-tercera > img{
+    max-width: 700;
+}
+#contenedor {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+.mitad{
+    width: 55%;
+}
+#tercera-seccion-der > h3 {
+    text-transform: uppercase;
+    font-family: "montaserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+#tercera-seccion-der >hr {
+    width: 4.5rem;
+    border-color: rgb(91, 191, 224);
+    margin-left: 0;
+    margin-bottom: 3rem;
+}
+#tercera-seccion-der >p {
+    margin-bottom: 4rem;
+}
